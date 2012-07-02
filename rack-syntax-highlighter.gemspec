@@ -4,9 +4,9 @@ require File.expand_path('../lib/rack-syntax-highlighter/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Glenn Gillen"]
   gem.email         = ["me@glenngillen.com"]
-  gem.description   = %q{}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Uses Albino and Pygmentize to add highlighting to code blocks}
+  gem.summary       = %q{Rack middleware to add syntax highlighting to code blocks}
+  gem.homepage      = "https://github.com/glenngillen/rack-syntax-highlighter"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
