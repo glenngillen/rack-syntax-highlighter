@@ -1,4 +1,5 @@
 require "rack-syntax-highlighter/version"
+require "rack-plastic"
 
 module Rack
   class SyntaxHighlighter < Plastic
