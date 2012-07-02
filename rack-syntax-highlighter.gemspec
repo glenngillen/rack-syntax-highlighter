@@ -4,7 +4,7 @@ require File.expand_path('../lib/rack-syntax-highlighter/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Glenn Gillen"]
   gem.email         = ["me@glenngillen.com"]
-  gem.description   = %q{TODO: Write a gem description}
+  gem.description   = %q{}
   gem.summary       = %q{TODO: Write a gem summary}
   gem.homepage      = ""
 
@@ -15,5 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Rack::Syntax::Highlighter::VERSION
 
-  gem.add_dependency 'rack-plastic', '~>0.1.3'
+  gem.add_dependency 'rack-plastic', '~> 0.1.3'
+  gem.add_dependency 'albino', '~> 1.3.3'
+  gem.add_dependency 'pygmentize', '~> 0.0.3'
 end
